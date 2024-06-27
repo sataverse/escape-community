@@ -1,0 +1,26 @@
+.inputText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300rem;
+  height: 60rem;
+  padding: 6rem;
+  border-radius: 6rem;
+  margin: 6rem 0 !important;
+  background-color: #efefef;
+}
+
+.inputText:hover {
+  cursor: pointer;
+}
+
+.inputText > div {
+  font-size: 14rem;
+  color: gray;
+}
+
+.inputText > input {
+  width: 280rem;
+  font-size: 20rem;
+  background-color: transparent;
+}

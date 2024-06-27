@@ -1,0 +1,49 @@
+.mainInfoWrapper > div {
+  position: relative;
+  margin: 6rem 0;
+}
+
+.mainInfoWrapper > div > img {
+  width: 600rem;
+  height: 480rem;
+  border-radius: 6rem;
+  object-fit: contain;
+  background-color: black;
+}
+
+.mainInfoWrapper > div > div {
+  margin: 1rem 0;
+}
+
+.iconLabel {
+  display: flex;
+}
+
+.iconLabel > div {
+  margin: 0 12rem 0 3rem;
+}
+
+.gridWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600rem;
+}
+
+.horizon {
+  width: 600rem;
+  height: 1rem;
+  margin: 10rem 0;
+  background-color: #d9d9d9;
+}
+
+@media all and (max-width: 720px) {
+  .mainInfoWrapper > div > img {
+    width: 480rem;
+  }
+  .gridWrapper {
+    width: 400rem;
+  }
+  .horizon {
+    width: 480rem;
+  }
+}

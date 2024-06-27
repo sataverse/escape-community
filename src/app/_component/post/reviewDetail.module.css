@@ -1,0 +1,87 @@
+.reviewDetailHorizontal {
+  position: relative;
+  display: flex;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  overflow: hidden;
+}
+
+.reviewDetailHorizontal > div:first-child {
+  position: relative;
+  height: inherit;
+}
+
+.reviewDetailHorizontal > div:last-child {
+  height: inherit;
+  border-left: 1rem solid #d9d9d9;
+}
+
+.reviewDetailHorizontal > div:last-child > div {
+  padding: 4rem 10rem;
+  border-bottom: 1rem solid #d9d9d9;
+}
+
+.reviewDetailHorizontal > div:last-child > div:first-child {
+  height: 40rem;
+}
+
+.reviewDetailHorizontal > div:last-child > div:nth-child(2) {
+  text-align: justify;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow: scroll;
+}
+
+.reviewDetailHorizontal > div:last-child > div:last-child {
+  height: 80rem;
+  border-bottom: 0;
+}
+
+.reviewDetailHorizontal > div:last-child > div:last-child > textarea {
+  width: inherit;
+  height: 36rem;
+  margin-top: 4rem;
+}
+
+.reviewDetailVertical {
+  width: 480rem;
+  min-height: 480rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  overflow: hidden;
+}
+
+.reviewDetailVertical > div {
+  padding: 4rem 10rem;
+  border-bottom: 1rem solid #d9d9d9;
+}
+
+.reviewDetailVertical > div:first-child {
+  height: 40rem;
+}
+
+.reviewDetailVertical > div:nth-child(2) {
+  position: relative;
+  width: 480rem;
+  height: 360rem;
+  padding: 0;
+}
+
+.reviewDetailVertical > div:nth-child(3) {
+  max-height: 240rem;
+  text-align: justify;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  overflow: scroll;
+}
+
+.reviewDetailVertical > div:last-child {
+  height: 80rem;
+  border-bottom: 0;
+}
+
+.reviewDetailVertical > div:last-child > textarea {
+  width: 460rem;
+  height: 36rem;
+  margin-top: 4rem;
+}

@@ -1,0 +1,17 @@
+.topButton {
+  position: fixed;
+  width: 48rem;
+  height: 48rem;
+  bottom: 20rem;
+  right: 20rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 4px 2px #cccccc;
+  opacity: 0.9;
+  z-index: 4;
+}
+
+@media all and (max-width: 720px) {
+  .topButton {
+    display: none;
+  }
+}

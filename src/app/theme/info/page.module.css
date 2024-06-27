@@ -1,0 +1,54 @@
+.infoWrapper {
+  width: 480rem;
+}
+
+.infoWrapper > div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 110rem;
+  height: 80rem;
+  padding: 4rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  margin-bottom: 10rem;
+}
+
+.infoBox > div:first-child {
+  display: flex;
+}
+
+.infoBox > div:first-child > div:last-child {
+  margin-left: 6rem;
+  color: gray;
+}
+
+.infoBox > div:last-child {
+  font-size: 20rem;
+  text-align: end;
+  white-space: pre-wrap;
+}
+
+.infoWrapper > div:last-child {
+  display: flex;
+  justify-content: space-around;
+  height: 220rem;
+}
+
+.horizon {
+  width: 480rem;
+  height: 1rem;
+  margin: 20rem 0 0 0;
+  background-color: #d9d9d9;
+}
+
+.vertical {
+  width: 1rem;
+  height: inherit;
+  background-color: #d9d9d9;
+}

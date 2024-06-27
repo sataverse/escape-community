@@ -1,0 +1,9 @@
+.iconText {
+  display: flex;
+  border-radius: 6rem;
+  padding: 4rem 10rem;
+}
+
+.iconText > div {
+  margin-left: 4rem;
+}

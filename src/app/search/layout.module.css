@@ -1,0 +1,12 @@
+.horizon {
+  width: 600rem;
+  height: 1rem;
+  margin-bottom: 20rem;
+  background-color: #d9d9d9;
+}
+
+@media all and (max-width: 720px) {
+  .horizon {
+    width: 480rem;
+  }
+}

@@ -1,0 +1,33 @@
+.postBoxWrapper {
+  width: 600rem;
+  padding: 10rem;
+  border-bottom: 1rem solid #d9d9d9;
+  margin: 10rem 0;
+}
+
+.postBoxWrapper:hover {
+  border-radius: 6rem;
+  border-bottom: 1rem solid transparent;
+  background-color: #efefef;
+}
+
+.reviewBoxWrapper > div {
+  margin-top: 16rem;
+}
+
+.reviewBoxWrapper > div:first-child {
+  margin-top: 0;
+}
+
+.postBoxWrapper > div:nth-child(2) {
+  padding: 2rem;
+  text-align: justify;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+@media all and (max-width: 720px) {
+  .postBoxWrapper {
+    width: 480rem;
+  }
+}

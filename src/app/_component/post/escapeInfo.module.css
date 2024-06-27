@@ -1,0 +1,41 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 132rem;
+  padding: 10rem;
+  border-radius: 6rem;
+  background-color: #f6f6f6;
+}
+
+.top img {
+  border-radius: 6rem;
+  margin-right: 12rem;
+  object-fit: cover;
+}
+
+.top > div:first-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80rem;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100rem;
+  padding: 2rem;
+  margin-top: 10rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex > div {
+  margin-right: 12rem;
+  color: gray;
+}

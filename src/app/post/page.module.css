@@ -1,0 +1,30 @@
+.horizon {
+  width: 600rem;
+  height: 1rem;
+  margin: 30rem 0 20rem 0;
+  background-color: #d9d9d9;
+}
+
+.text {
+  width: 600rem;
+  margin: 10rem 0;
+  color: gray;
+}
+
+@media all and (min-width: 721px) {
+  .reviewDetail > div:last-child {
+    display: none;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .reviewDetail > div:first-child {
+    display: none;
+  }
+  .horizon {
+    width: 480rem;
+  }
+  .text {
+    width: 480rem;
+  }
+}

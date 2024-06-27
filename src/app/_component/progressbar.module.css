@@ -1,0 +1,28 @@
+.progressBarWrapper {
+  margin: 12rem 0;
+}
+
+.progressBarWrapper > div:first-child {
+  position: relative;
+  margin-bottom: 2rem;
+  left: 2rem;
+}
+
+.progressBarWrapper > div:last-child {
+  position: relative;
+  height: 20rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+}
+
+.progressBarWrapper > div:last-child > div:first-child {
+  height: 18rem;
+  border-radius: 4rem;
+}
+
+.progressBarWrapper > div:last-child > div:last-child {
+  position: absolute;
+  top: 0rem;
+  right: 5rem;
+  color: gray;
+}

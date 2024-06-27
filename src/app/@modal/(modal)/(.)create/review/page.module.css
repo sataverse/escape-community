@@ -1,0 +1,228 @@
+.searchBarWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 360rem;
+  height: 40rem;
+  padding: 5rem;
+  border-radius: 6rem;
+  background-color: #efefef;
+}
+
+.searchBarWrapper > input[type='text'] {
+  width: 260rem;
+  height: 30rem;
+  margin-left: 8rem;
+  background-color: transparent;
+}
+
+.searchBarWrapper > button {
+  width: 30rem;
+  height: 30rem;
+  border-radius: 6rem;
+}
+
+.searchBarWrapper > button:hover {
+  background-color: #d9d9d9;
+}
+
+.searchBarWrapper > button > svg {
+  position: relative;
+  top: 2rem;
+}
+
+.searchResults {
+  width: 360rem;
+  height: 180rem;
+  overflow: scroll;
+}
+
+.searchResults > div {
+  display: flex;
+  width: inherit;
+  padding: 6rem;
+  border-radius: 6rem;
+}
+
+.searchResults > div:hover {
+  background-color: #efefef;
+}
+
+.searchResults > div > img {
+  width: 60rem;
+  height: 60rem;
+  border-radius: 6rem;
+  margin-right: 10rem;
+  object-fit: cover;
+}
+
+.searchResults > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  width: inherit;
+  height: 50rem;
+  padding: 10rem;
+  border-bottom: 1rem solid #d9d9d9;
+}
+
+.modalBody {
+  height: 550rem;
+  overflow-y: scroll;
+}
+
+.modalBody > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: inherit;
+}
+
+.horizon {
+  width: 440rem;
+  height: 1rem;
+  margin: 20rem 0;
+  background-color: #d9d9d9;
+}
+
+.themeInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 400rem;
+  height: 220rem;
+  margin-top: 20rem;
+}
+
+.themeInfo > img {
+  height: 160rem;
+  border-radius: 6rem;
+  object-fit: cover;
+}
+
+.themeInfo > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400rem;
+  height: 60rem;
+}
+
+.record > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.record button {
+  width: 30rem;
+  height: 30rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 30rem;
+}
+
+.record input[type='number'] {
+  width: 50rem;
+  height: 30rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  text-align: center;
+}
+
+.record input[type='date'] {
+  width: 130rem;
+  height: 30rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 30rem;
+  text-align: center;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400rem;
+  height: 48rem;
+}
+
+.rating > div {
+  display: flex;
+  align-items: center;
+}
+
+.rating > div:last-child > button {
+  width: 15rem;
+  height: 30rem;
+}
+
+.rating > div:last-child > button:nth-child(odd) {
+  margin-right: 2rem;
+}
+
+.rating > div:last-child > button:nth-child(even) {
+  margin-left: 2rem;
+}
+
+.rating > div:last-child > button:first-child {
+  width: 30rem;
+  border-radius: 6rem;
+  margin-right: 10rem;
+  color: gray;
+}
+
+.rating > div:last-child > button:first-child:hover {
+  background-color: #efefef;
+}
+
+.photo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400rem;
+}
+
+.photo > button {
+  width: 60rem;
+  height: 60rem;
+  border: 2rem solid #d9d9d9;
+  border-radius: 50%;
+}
+
+.photo > button:hover {
+  background-color: #efefef;
+}
+
+.photo > div {
+  display: flex;
+  width: inherit;
+  justify-content: space-between;
+  margin-top: 20rem;
+}
+
+.photo > div > img {
+  width: 132rem;
+  height: 132rem;
+  object-fit: cover;
+}
+
+.comment {
+  width: 400rem;
+  height: 200rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  margin: 20rem 0;
+  overflow-y: scroll;
+}
