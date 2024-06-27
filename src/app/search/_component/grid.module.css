@@ -1,0 +1,12 @@
+.gridWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600rem;
+  margin: 10rem 0;
+}
+
+@media all and (max-width: 720px) {
+  .gridWrapper {
+    width: 400rem;
+  }
+}

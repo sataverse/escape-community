@@ -1,0 +1,43 @@
+.userProfile {
+  display: flex;
+  align-items: center;
+  width: 292rem;
+  height: 100rem;
+  padding: 10rem;
+  border: 1rem solid #d9d9d9;
+  border-radius: 6rem;
+  margin: 4rem;
+}
+
+.userProfile:hover {
+  background-color: #efefef;
+}
+
+.userProfile > img {
+  width: 60rem;
+  height: 60rem;
+  margin-right: 16rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userProfile > div > div:first-child {
+  display: flex;
+  align-items: end;
+  height: 24rem;
+  margin-bottom: 10rem;
+}
+
+.userProfile > div > div:last-child {
+  height: 48rem;
+  font-size: 14rem;
+  text-align: justify;
+  white-space: pre-wrap;
+  overflow-y: hidden;
+}
+
+@media all and (max-width: 720px) {
+  .userProfile {
+    width: 400rem;
+  }
+}

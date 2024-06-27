@@ -1,0 +1,154 @@
+.container {
+  display: flex;
+  align-items: row;
+  background-color: white;
+}
+
+.leftSection {
+  position: relative;
+  width: 240rem;
+  height: 100dvh;
+  flex-shrink: 0;
+}
+
+.leftSectionFixed {
+  position: fixed;
+  width: inherit;
+  height: 100dvh;
+  border-right: 2px solid #efefef;
+  padding: 20rem 10rem 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  position: relative;
+  height: 100rem;
+  padding: 0 6rem;
+}
+
+.miniLogo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100rem;
+}
+
+.middleSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding: 10rem 0;
+}
+
+.rightSection {
+  position: relative;
+  width: 360rem;
+  padding: 40rem 10rem 0rem 10rem;
+  flex-shrink: 0;
+}
+
+.rightSectionHeader {
+  padding: 0 10rem;
+  margin-bottom: 10rem;
+  font-size: 24rem;
+  color: gray;
+}
+
+.chart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6rem;
+  margin: 4rem 0 4rem 0;
+  padding: 8rem 4rem;
+}
+
+.chart:hover {
+  background-color: #efefef;
+}
+
+.chartNumber {
+  width: 40rem;
+  margin-right: 4rem;
+  text-align: center;
+  font-size: 30rem;
+}
+
+.chartLocation {
+  margin-top: 4rem;
+  font-size: 14rem;
+  color: gray;
+}
+
+.rightFooter {
+  position: sticky;
+  top: 0;
+  height: 500rem;
+  background-color: aliceblue;
+}
+
+.topSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+  padding-bottom: 60rem;
+}
+
+.bottomSection {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100dvw;
+  height: 64rem;
+  bottom: 0;
+  border-top: 2px solid #efefef;
+  background-color: white;
+  z-index: 99;
+}
+
+@media all and (max-width: 1255px) {
+  .leftSection {
+    width: 70rem;
+  }
+  .logo {
+    display: none;
+  }
+  .profileText {
+    display: none;
+  }
+}
+
+@media all and (min-width: 1256px) {
+  .miniLogo {
+    display: none;
+  }
+}
+
+@media all and (max-width: 1085px) {
+  .rightSection {
+    display: none;
+  }
+}
+
+@media all and (min-width: 721px) {
+  .topSection {
+    display: none;
+  }
+  .bottomSection {
+    display: none;
+  }
+}
+
+@media all and (max-width: 720px) {
+  .leftSection {
+    display: none;
+  }
+  .middleSection {
+    display: none;
+  }
+}

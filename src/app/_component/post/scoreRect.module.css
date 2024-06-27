@@ -1,0 +1,26 @@
+.scoreRectsWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.scoreRectsWrapper > div:first-child {
+  width: 90rem;
+  color: gray;
+}
+
+.scoreRectsWrapper > div:last-child {
+  display: flex;
+  justify-content: space-between;
+  width: 220rem;
+}
+
+.scoreRectsWrapper > div:last-child > div {
+  width: 40rem;
+  height: 8rem;
+  border: 1.5rem solid gray;
+}
+
+.scoreRectsWrapper > div:last-child > div > div {
+  height: 5rem;
+  background-color: gray;
+}

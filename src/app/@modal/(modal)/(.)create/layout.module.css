@@ -1,0 +1,10 @@
+.createModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 480rem;
+  height: 600rem;
+  transform: translate(-50%, -50%);
+  border-radius: 6rem;
+  background-color: white;
+}

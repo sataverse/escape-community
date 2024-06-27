@@ -1,0 +1,32 @@
+.navElement {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 6rem;
+  padding: 10rem 6rem;
+  margin: 10rem 0;
+}
+
+.navElement:hover {
+  background-color: #efefef;
+}
+
+.navElement > div {
+  position: relative;
+  top: 2rem;
+  margin-left: 20rem;
+  font-size: 18rem;
+}
+
+.profileImage {
+  width: 36rem;
+  height: 36rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media all and (max-width: 1255px) {
+  .navElement > div {
+    display: none;
+  }
+}

@@ -1,0 +1,33 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 6rem;
+  padding: 10rem;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.cardWrapper:hover {
+  background-color: #efefef;
+}
+
+.cardImage {
+  border-radius: 6rem;
+  object-fit: cover;
+}
+
+.cardTextsWrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.cardTextsWrapper > div {
+  margin-right: 8rem;
+}
+
+.cardText {
+  width: 160rem;
+  padding: 0 2rem;
+  font-size: 16rem;
+}

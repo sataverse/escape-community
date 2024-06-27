@@ -1,0 +1,17 @@
+.postHeader {
+  display: flex;
+  align-items: center;
+}
+
+.postHeader > a > img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.postHeader > * {
+  margin-right: 10rem;
+}
+
+.postHeader > div:last-child {
+  color: gray;
+}

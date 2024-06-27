@@ -1,0 +1,57 @@
+.profileWrapper {
+  display: flex;
+  width: 600rem;
+  padding: 10rem;
+  margin: 20rem 0;
+}
+
+.profileWrapper > img {
+  width: 160rem;
+  height: 160rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 40rem;
+}
+
+.profileWrapper > div > div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10rem;
+  white-space: pre-wrap;
+}
+
+.profileWrapper > div > div > div {
+  font-size: 20rem;
+  margin-right: 20rem;
+}
+
+.profileWrapper button {
+  padding: 4rem 10rem;
+  border-radius: 6rem;
+}
+
+.profileWrapper button:hover {
+  background-color: #efefef;
+}
+
+.horizon {
+  width: 600rem;
+  height: 1rem;
+  margin-bottom: 20rem;
+  background-color: #d9d9d9;
+}
+
+@media all and (max-width: 720px) {
+  .profileWrapper {
+    width: 480rem;
+    margin: 20rem 0;
+  }
+  .profileWrapper > img {
+    width: 100rem;
+    height: 100rem;
+    margin-right: 16rem;
+  }
+  .horizon {
+    width: 480rem;
+  }
+}

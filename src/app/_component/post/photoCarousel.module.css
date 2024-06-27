@@ -1,0 +1,55 @@
+.photoArea {
+  position: relative;
+  display: flex;
+  width: inherit;
+  height: inherit;
+  overflow: hidden;
+}
+
+.photoArea > div {
+  position: relative;
+  flex-shrink: 0;
+  width: inherit;
+  height: inherit;
+  background-color: white;
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+
+.photoArea > div:first-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10rem;
+}
+
+.photoArea > div:first-child img {
+  display: none;
+}
+
+.photoArea > div > img {
+  width: inherit;
+  height: inherit;
+  object-fit: contain;
+}
+
+.left,
+.right {
+  position: absolute;
+  width: 30rem;
+  height: 30rem;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 4px 2px #cccccc;
+  opacity: 0.8;
+}
+
+.left {
+  left: 10rem;
+}
+
+.right {
+  right: 10rem;
+}

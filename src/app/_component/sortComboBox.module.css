@@ -1,0 +1,13 @@
+.sortComboBoxWrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 600rem;
+  margin: 10rem 0;
+}
+
+@media all and (max-width: 720px) {
+  .sortComboBoxWrapper {
+    width: 400rem;
+  }
+}
